@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.egg-info/
+data/
+.pytest_cache/
+.ruff_cache/
+
+# Corpus documents are large local data; manifests (metadata) stay tracked.
+contracts/*.pdf
+contracts/*.docx
+contracts/Expired/
+contracts/scraped/
+dist/
